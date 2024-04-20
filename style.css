@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<img src="waves.gif" alt="Waves GIF">
+
+</body>
+</html
+#time-container {
+  position: relative; /* Make the container the reference for positioning */
+  width: 100%; /* Stretch the container to fill the viewport */
+  height: 100%; /* Stretch the container to fill the viewport */
+}
+
+#waves.gif {
+  width: 100%; /* Stretch the GIF to fill the container */
+  height: 100%; /* Stretch the GIF to fill the container */
+}
+
+#current-time {
+  position: absolute; /* Position the text absolutely within the container */
+  top: 10px; /* Adjust the top position from the container's top */
+  left: 10px; /* Adjust the left position from the container's left */
+  color: #00ff04; /* Set the text color (consider contrasting the GIF's colors) */
+  font-size: 20px; /* Adjust the font size as desired */
+}
